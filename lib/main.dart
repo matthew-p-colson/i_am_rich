@@ -13,9 +13,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-              'https://weneedfun.com/wp-content/uploads/2016/07/Most-Beautiful-Sunset-Pictures-22.jpg',
-            ),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
