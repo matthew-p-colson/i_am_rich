@@ -14,9 +14,7 @@ void main() {
         ),
         body: const Center(
           child: Image(
-            image: NetworkImage(
-              'https://upload.wikimedia.org/wikipedia/commons/3/36/Hopetoun_falls.jpg',
-            ),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
